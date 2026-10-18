@@ -1,0 +1,62 @@
+name: Update download counts
+
+# Dalamud only shows a download count for a custom repository when pluginmaster.json carries one.
+# Each plugin's count is the sum of the downloads of its release assets (tags "<InternalName>-...").
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pluginmaster
+  cancel-in-progress: false
+
+jobs:
+  download-counts:
+    # Same runner OS as the plugin release jobs, so ConvertTo-Json writes pluginmaster.json the same way
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Update DownloadCount
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          $pmPath = "pluginmaster.json"
+          $pm = @(Get-Content $pmPath -Raw | ConvertFrom-Json)
+
+          $lines = gh api "repos/$env:REPOSITORY/releases" --paginate --jq '.[] | {tag: .tag_name, downloads: ([.assets[].download_count] | add // 0)} | tojson'
+          if ($LASTEXITCODE -ne 0) { throw "Could not list the releases of $env:REPOSITORY" }
+          $releases = @($lines | ForEach-Object { $_ | ConvertFrom-Json })
+
+          $changed = $false
+          foreach ($entry in $pm) {
+              $prefix = "$($entry.InternalName)-"
+              $own = @($releases | Where-Object { $_.tag.StartsWith($prefix) })
+              # Plugins without release assets keep whatever count they already have
+              if ($own.Count -eq 0) { continue }
+
+              $total = [int64](($own | Measure-Object -Property downloads -Sum).Sum)
+              Write-Host "$($entry.InternalName): $total downloads"
+              if ($entry.DownloadCount -ne $total) {
+                  $entry | Add-Member -NotePropertyName DownloadCount -NotePropertyValue $total -Force
+                  $changed = $true
+              }
+          }
+
+          if (-not $changed) {
+              Write-Host "Download counts unchanged"
+              exit 0
+          }
+
+          ConvertTo-Json -InputObject $pm -Depth 10 | Set-Content -Path $pmPath -Encoding utf8
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add $pmPath
+          git commit -m "Update download counts"
+          git push
