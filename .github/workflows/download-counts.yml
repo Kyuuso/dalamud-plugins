@@ -2,6 +2,8 @@ name: Update download counts
 
 # Dalamud only shows a download count for a custom repository when pluginmaster.json carries one.
 # Each plugin's count is the sum of the downloads of its release assets (tags "<InternalName>-...").
+# Plugins listed in $externallyCounted publish from their own release repository and keep their count up to date
+# themselves (their total includes the retained releases here), so this job must not overwrite it.
 on:
   schedule:
     - cron: "17 6 * * *"
@@ -34,8 +36,10 @@ jobs:
           if ($LASTEXITCODE -ne 0) { throw "Could not list the releases of $env:REPOSITORY" }
           $releases = @($lines | ForEach-Object { $_ | ConvertFrom-Json })
 
+          $externallyCounted = @("EurekaSuite")
           $changed = $false
           foreach ($entry in $pm) {
+              if ($entry.InternalName -in $externallyCounted) { continue }
               $prefix = "$($entry.InternalName)-"
               $own = @($releases | Where-Object { $_.tag.StartsWith($prefix) })
               # Plugins without release assets keep whatever count they already have
