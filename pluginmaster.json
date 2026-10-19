@@ -5,8 +5,8 @@
     "InternalName": "EurekaSuite",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
-    "Punchline": "All-in-one Eureka suite: aggro radars, bunny fate automation & live tracker sync.",
-    "Description": "All-in-one quality-of-life suite for Eureka (Anemos, Pagos, Pyros, Hydatos). Features lethal aggro radar visualizers (sleeping dragon sound aggro, low HP blood aggro, sprite magic aggro, vision cones, combat cast alerts), native BFE (Bunnies for Eureka) automated bunny fate routing & treasure hunting, and real-time ffxiv-eureka.com Phoenix WebSocket tracker synchronization.",
+    "Punchline": "All-in-one Eureka suite: aggro radars, live tracker sync, bunny helpers and Logos & Loot errands.",
+    "Description": "All-in-one quality-of-life suite for Eureka (Anemos, Pagos, Pyros, Hydatos). Features lethal aggro radar visualizers (sleeping dragon sound aggro, low HP blood aggro, sprite magic aggro, vision cones, combat cast alerts), real-time ffxiv-eureka.com Phoenix WebSocket tracker synchronization, bunny FATE timer and coffer markers, and Logos & Loot errands. Bunny FATE automation is unlocked by a privately granted access package.",
     "Tags": [
       "eureka",
       "suite",
@@ -16,7 +16,6 @@
       "dragons",
       "sound",
       "bunnies",
-      "bfe",
       "automation",
       "anemos",
       "pagos",
