@@ -23,12 +23,12 @@
       "hydatos"
     ],
     "TestingDalamudApiLevel": 15,
-    "IconUrl": "https://raw.githubusercontent.com/Kyuuso/dalamud-plugins/main/plugins/EurekaSuite/images/icon.png",
-    "AssemblyVersion": "2.0.0.0",
-    "DownloadLinkInstall": "https://github.com/Kyuuso/dalamud-plugins/releases/download/EurekaSuite-v2.0.0/EurekaSuite-v2.0.0.zip",
-    "DownloadLinkUpdate": "https://github.com/Kyuuso/dalamud-plugins/releases/download/EurekaSuite-v2.0.0/EurekaSuite-v2.0.0.zip",
-    "TestingAssemblyVersion": "2.0.0.0",
-    "DownloadLinkTesting": "https://github.com/Kyuuso/dalamud-plugins/releases/download/EurekaSuite-v2.0.0/EurekaSuite-v2.0.0.zip",
-    "DownloadCount": 19
+    "IconUrl": "https://raw.githubusercontent.com/Kyuuso/EurekaSuite-releases/main/icon.png",
+    "AssemblyVersion": "2.0.1.0",
+    "DownloadLinkInstall": "https://github.com/Kyuuso/EurekaSuite-releases/releases/download/v2.0.1/EurekaSuite-v2.0.1.zip",
+    "DownloadLinkUpdate": "https://github.com/Kyuuso/EurekaSuite-releases/releases/download/v2.0.1/EurekaSuite-v2.0.1.zip",
+    "TestingAssemblyVersion": "2.0.1.0",
+    "DownloadLinkTesting": "https://github.com/Kyuuso/EurekaSuite-releases/releases/download/v2.0.1/EurekaSuite-v2.0.1.zip",
+    "DownloadCount": 27
   }
 ]
