@@ -27,8 +27,8 @@
     "AssemblyVersion": "2.0.1.0",
     "DownloadLinkInstall": "https://github.com/Kyuuso/EurekaSuite-releases/releases/download/v2.0.1/EurekaSuite-v2.0.1.zip",
     "DownloadLinkUpdate": "https://github.com/Kyuuso/EurekaSuite-releases/releases/download/v2.0.1/EurekaSuite-v2.0.1.zip",
-    "TestingAssemblyVersion": "2.1.1.0",
-    "DownloadLinkTesting": "https://github.com/Kyuuso/EurekaSuite-releases/releases/download/v2.1.1-preview/EurekaSuite-v2.1.1-preview.zip",
-    "DownloadCount": 45
+    "TestingAssemblyVersion": "2.1.2.0",
+    "DownloadLinkTesting": "https://github.com/Kyuuso/EurekaSuite-releases/releases/download/v2.1.2-preview/EurekaSuite-v2.1.2-preview.zip",
+    "DownloadCount": 50
   }
 ]
