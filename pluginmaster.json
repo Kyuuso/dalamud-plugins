@@ -30,5 +30,33 @@
     "TestingAssemblyVersion": "2.5.0.0",
     "DownloadLinkTesting": "https://github.com/Kyuuso/EurekaSuite-releases/releases/download/v2.5.0-preview/EurekaSuite-v2.5.0-preview.zip",
     "DownloadCount": 157
+  },
+  {
+    "Author": "Kyuuso",
+    "Name": "Bozja Suite",
+    "InternalName": "BozjaSuite",
+    "AssemblyVersion": "0.1.0.0",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "Punchline": "Save the Queen field operations helper: critical engagement tracker, fragment planner with market prices.",
+    "Description": "Early beta. Quality-of-life suite for the Bozjan Southern Front and Zadnor. Tracks critical engagements and skirmishes with enlistment alerts, shows your Resistance rank and mettle, lists the forgotten fragments you carry and plans which fragments to farm or buy for the Lost Action you want, with Universalis prices. Field automation (skirmishes, critical engagements, Castrum Lacus Litore and the Dalriada through BossMod Reborn and Rotation Solver) is unlocked by a privately granted access package.",
+    "Tags": [
+      "bozja",
+      "zadnor",
+      "save the queen",
+      "critical engagement",
+      "lost actions",
+      "fragments",
+      "dalriada",
+      "castrum lacus litore",
+      "tracker",
+      "automation"
+    ],
+    "DownloadLinkInstall": "https://github.com/Kyuuso/dalamud-plugins/releases/download/BozjaSuite-v0.1.0/BozjaSuite-v0.1.0.zip",
+    "DownloadLinkUpdate": "https://github.com/Kyuuso/dalamud-plugins/releases/download/BozjaSuite-v0.1.0/BozjaSuite-v0.1.0.zip",
+    "TestingAssemblyVersion": "0.1.0.0",
+    "TestingDalamudApiLevel": 15,
+    "DownloadLinkTesting": "https://github.com/Kyuuso/dalamud-plugins/releases/download/BozjaSuite-v0.1.0/BozjaSuite-v0.1.0.zip",
+    "IconUrl": "https://raw.githubusercontent.com/Kyuuso/dalamud-plugins/main/plugins/BozjaSuite/images/icon.png"
   }
 ]
