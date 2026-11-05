@@ -1,0 +1,12 @@
+{
+  "Author": "Kyuuso",
+  "Name": "Phantom Helper",
+  "InternalName": "PhantomHelper",
+  "AssemblyVersion": "0.1.0.0",
+  "Punchline": "Dawntrail Phantom relic: arcanite, exchanges, Trust farms and the Occult Crescent events you still need.",
+  "Description": "Early beta. Takes your Phantom weapons (Dawntrail) through their stages: buys arcanite and the one-time quest items, farms the uncapped tomestone and the Final Phantasm dungeons with Trust through AutoDuty, trades weapons at Dodokkuli, and lists the Occult Crescent FATEs and critical encounters that drop the demiatma, dispellers and crystal paste you still need. Needs AutoDuty for the farms and vnavmesh for walking.",
+  "ApplicableVersion": "any",
+  "DalamudApiLevel": 15,
+  "IconUrl": "https://raw.githubusercontent.com/Kyuuso/dalamud-plugins/main/plugins/PhantomHelper/images/icon.png",
+  "Tags": ["relic", "phantom", "dawntrail", "occult crescent", "automation"]
+}
