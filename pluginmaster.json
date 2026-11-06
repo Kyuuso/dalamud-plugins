@@ -58,7 +58,7 @@
     "TestingDalamudApiLevel": 15,
     "DownloadLinkTesting": "https://github.com/Kyuuso/dalamud-plugins/releases/download/BozjaSuite-v0.5.0-preview/BozjaSuite-v0.5.0-preview.zip",
     "IconUrl": "https://raw.githubusercontent.com/Kyuuso/dalamud-plugins/main/plugins/BozjaSuite/images/icon.png",
-    "DownloadCount": 16
+    "DownloadCount": 21
   },
   {
     "Author": "Kyuuso",
@@ -83,7 +83,7 @@
     "TestingDalamudApiLevel": 15,
     "DownloadLinkTesting": "https://github.com/Kyuuso/dalamud-plugins/releases/download/ZodiacHelper-v0.5.68-preview/ZodiacHelper-v0.5.68-preview.zip",
     "IconUrl": "https://raw.githubusercontent.com/Kyuuso/dalamud-plugins/main/plugins/ZodiacHelper/images/icon.png",
-    "DownloadCount": 22
+    "DownloadCount": 200
   },
   {
     "Author": "Kyuuso",
@@ -107,7 +107,7 @@
     "TestingDalamudApiLevel": 15,
     "DownloadLinkTesting": "https://github.com/Kyuuso/dalamud-plugins/releases/download/AnimaHelper-v0.5.4-preview/AnimaHelper-v0.5.4-preview.zip",
     "IconUrl": "https://raw.githubusercontent.com/Kyuuso/dalamud-plugins/main/plugins/AnimaHelper/images/icon.png",
-    "DownloadCount": 11
+    "DownloadCount": 31
   },
   {
     "Author": "Kyuuso",
@@ -131,7 +131,7 @@
     "TestingDalamudApiLevel": 15,
     "DownloadLinkTesting": "https://github.com/Kyuuso/dalamud-plugins/releases/download/MandervilleHelper-v0.5.4-preview/MandervilleHelper-v0.5.4-preview.zip",
     "IconUrl": "https://raw.githubusercontent.com/Kyuuso/dalamud-plugins/main/plugins/MandervilleHelper/images/icon.png",
-    "DownloadCount": 10
+    "DownloadCount": 25
   },
   {
     "Author": "Kyuuso",
@@ -155,6 +155,6 @@
     "TestingDalamudApiLevel": 15,
     "DownloadLinkTesting": "https://github.com/Kyuuso/dalamud-plugins/releases/download/PhantomHelper-v0.6.4-preview/PhantomHelper-v0.6.4-preview.zip",
     "IconUrl": "https://raw.githubusercontent.com/Kyuuso/dalamud-plugins/main/plugins/PhantomHelper/images/icon.png",
-    "DownloadCount": 12
+    "DownloadCount": 27
   }
 ]
