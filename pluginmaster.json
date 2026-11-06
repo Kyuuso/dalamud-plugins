@@ -79,9 +79,9 @@
     ],
     "DownloadLinkInstall": "https://github.com/Kyuuso/dalamud-plugins/releases/download/ZodiacHelper-v0.1.0/ZodiacHelper-v0.1.0.zip",
     "DownloadLinkUpdate": "https://github.com/Kyuuso/dalamud-plugins/releases/download/ZodiacHelper-v0.1.0/ZodiacHelper-v0.1.0.zip",
-    "TestingAssemblyVersion": "0.5.59.0",
+    "TestingAssemblyVersion": "0.5.60.0",
     "TestingDalamudApiLevel": 15,
-    "DownloadLinkTesting": "https://github.com/Kyuuso/dalamud-plugins/releases/download/ZodiacHelper-v0.5.59-preview/ZodiacHelper-v0.5.59-preview.zip",
+    "DownloadLinkTesting": "https://github.com/Kyuuso/dalamud-plugins/releases/download/ZodiacHelper-v0.5.60-preview/ZodiacHelper-v0.5.60-preview.zip",
     "IconUrl": "https://raw.githubusercontent.com/Kyuuso/dalamud-plugins/main/plugins/ZodiacHelper/images/icon.png",
     "DownloadCount": 22
   },
