@@ -58,7 +58,7 @@
     "TestingDalamudApiLevel": 15,
     "DownloadLinkTesting": "https://github.com/Kyuuso/dalamud-plugins/releases/download/BozjaSuite-v0.5.7-preview/BozjaSuite-v0.5.7-preview.zip",
     "IconUrl": "https://raw.githubusercontent.com/Kyuuso/dalamud-plugins/main/plugins/BozjaSuite/images/icon.png",
-    "DownloadCount": 46
+    "DownloadCount": 66
   },
   {
     "Author": "Kyuuso",
@@ -83,8 +83,8 @@
     "TestingDalamudApiLevel": 15,
     "DownloadLinkTesting": "https://github.com/Kyuuso/dalamud-plugins/releases/download/ZodiacHelper-v0.8.0-preview/ZodiacHelper-v0.8.0-preview.zip",
     "IconUrl": "https://raw.githubusercontent.com/Kyuuso/dalamud-plugins/main/plugins/ZodiacHelper/images/icon.png",
-    "DownloadCount": 562,
-    "TestingChangelog": "0.8.0: the whole line works with the autopilot (a weapon went from Animus to Zeta and Kettle to the Mettle in game). New: a Job picker on the Main tab; the autopilot switches to that job's gearset and back to it after a step leaves another job on. Still to test before 1.0: party sharing between two clients, and a second relic on the same character (the furnace Zenith trade and the overlap roadmap)."
+    "TestingChangelog": "0.8.0: the whole line works with the autopilot (a weapon went from Animus to Zeta and Kettle to the Mettle in game). New: a Job picker on the Main tab; the autopilot switches to that job's gearset and back to it after a step leaves another job on. Still to test before 1.0: party sharing between two clients, and a second relic on the same character (the furnace Zenith trade and the overlap roadmap).",
+    "DownloadCount": 648
   },
   {
     "Author": "Kyuuso",
@@ -108,7 +108,7 @@
     "TestingDalamudApiLevel": 15,
     "DownloadLinkTesting": "https://github.com/Kyuuso/dalamud-plugins/releases/download/AnimaHelper-v0.5.12-preview/AnimaHelper-v0.5.12-preview.zip",
     "IconUrl": "https://raw.githubusercontent.com/Kyuuso/dalamud-plugins/main/plugins/AnimaHelper/images/icon.png",
-    "DownloadCount": 53
+    "DownloadCount": 78
   },
   {
     "Author": "Kyuuso",
@@ -132,7 +132,7 @@
     "TestingDalamudApiLevel": 15,
     "DownloadLinkTesting": "https://github.com/Kyuuso/dalamud-plugins/releases/download/MandervilleHelper-v0.5.11-preview/MandervilleHelper-v0.5.11-preview.zip",
     "IconUrl": "https://raw.githubusercontent.com/Kyuuso/dalamud-plugins/main/plugins/MandervilleHelper/images/icon.png",
-    "DownloadCount": 43
+    "DownloadCount": 59
   },
   {
     "Author": "Kyuuso",
@@ -156,6 +156,6 @@
     "TestingDalamudApiLevel": 15,
     "DownloadLinkTesting": "https://github.com/Kyuuso/dalamud-plugins/releases/download/PhantomHelper-v0.6.12-preview/PhantomHelper-v0.6.12-preview.zip",
     "IconUrl": "https://raw.githubusercontent.com/Kyuuso/dalamud-plugins/main/plugins/PhantomHelper/images/icon.png",
-    "DownloadCount": 51
+    "DownloadCount": 74
   }
 ]
