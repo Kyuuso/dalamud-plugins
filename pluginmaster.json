@@ -27,9 +27,10 @@
     "AssemblyVersion": "2.2.0.0",
     "DownloadLinkInstall": "https://github.com/Kyuuso/EurekaSuite-releases/releases/download/v2.2.0/EurekaSuite-v2.2.0.zip",
     "DownloadLinkUpdate": "https://github.com/Kyuuso/EurekaSuite-releases/releases/download/v2.2.0/EurekaSuite-v2.2.0.zip",
-    "TestingAssemblyVersion": "2.9.7.0",
-    "DownloadLinkTesting": "https://github.com/Kyuuso/EurekaSuite-releases/releases/download/v2.9.7-preview/EurekaSuite-v2.9.7-preview.zip",
-    "DownloadCount": 337
+    "TestingAssemblyVersion": "2.9.8.0",
+    "DownloadLinkTesting": "https://github.com/Kyuuso/EurekaSuite-releases/releases/download/v2.9.8-preview/EurekaSuite-v2.9.8-preview.zip",
+    "DownloadCount": 338,
+    "TestingChangelog": "2.9.8: Report a problem now writes the .log file and copies your text, then gives two buttons: one opens this plugin's thread on our Discord, the other is the server invite for people who are not members yet, since the thread link does not open for them."
   },
   {
     "Author": "Kyuuso",
