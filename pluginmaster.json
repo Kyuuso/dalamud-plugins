@@ -106,11 +106,11 @@
     ],
     "DownloadLinkInstall": "https://github.com/Kyuuso/dalamud-plugins/releases/download/AnimaHelper-v0.1.0/AnimaHelper-v0.1.0.zip",
     "DownloadLinkUpdate": "https://github.com/Kyuuso/dalamud-plugins/releases/download/AnimaHelper-v0.1.0/AnimaHelper-v0.1.0.zip",
-    "TestingAssemblyVersion": "0.5.14.0",
+    "TestingAssemblyVersion": "0.5.15.0",
     "TestingDalamudApiLevel": 15,
-    "DownloadLinkTesting": "https://github.com/Kyuuso/dalamud-plugins/releases/download/AnimaHelper-v0.5.14-preview/AnimaHelper-v0.5.14-preview.zip",
+    "DownloadLinkTesting": "https://github.com/Kyuuso/dalamud-plugins/releases/download/AnimaHelper-v0.5.15-preview/AnimaHelper-v0.5.15-preview.zip",
     "IconUrl": "https://raw.githubusercontent.com/Kyuuso/dalamud-plugins/main/plugins/AnimaHelper/images/icon.png",
-    "TestingChangelog": "0.5.14: Report a problem now writes the .log file and copies your text, then gives two buttons: one opens this plugin's thread on our Discord, the other is the server invite for people who are not members yet, since the thread link does not open for them.",
+    "TestingChangelog": "0.5.15: Report a problem: the .log file now starts with a Now section (zone, position, job, and WigglyQuest's quest and step) and also keeps WigglyQuest's lines and the warnings of other plugins. A line that repeats within a minute is counted instead of written again.",
     "DownloadCount": 93
   },
   {
