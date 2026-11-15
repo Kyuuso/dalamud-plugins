@@ -29,7 +29,7 @@
     "DownloadLinkUpdate": "https://github.com/Kyuuso/EurekaSuite-releases/releases/download/v2.2.0/EurekaSuite-v2.2.0.zip",
     "TestingAssemblyVersion": "2.9.9.0",
     "DownloadLinkTesting": "https://github.com/Kyuuso/EurekaSuite-releases/releases/download/v2.9.9-preview/EurekaSuite-v2.9.9-preview.zip",
-    "DownloadCount": 355,
+    "DownloadCount": 366,
     "TestingChangelog": "2.9.9: Report a problem: the .log file now starts with a Now section (zone, position, job, and WigglyQuest's quest and step) and also keeps WigglyQuest's lines and the warnings of other plugins. A line that repeats within a minute is counted instead of written again."
   },
   {
