@@ -27,10 +27,10 @@
     "AssemblyVersion": "2.2.0.0",
     "DownloadLinkInstall": "https://github.com/Kyuuso/EurekaSuite-releases/releases/download/v2.2.0/EurekaSuite-v2.2.0.zip",
     "DownloadLinkUpdate": "https://github.com/Kyuuso/EurekaSuite-releases/releases/download/v2.2.0/EurekaSuite-v2.2.0.zip",
-    "TestingAssemblyVersion": "2.9.8.0",
-    "DownloadLinkTesting": "https://github.com/Kyuuso/EurekaSuite-releases/releases/download/v2.9.8-preview/EurekaSuite-v2.9.8-preview.zip",
-    "DownloadCount": 346,
-    "TestingChangelog": "2.9.8: Report a problem now writes the .log file and copies your text, then gives two buttons: one opens this plugin's thread on our Discord, the other is the server invite for people who are not members yet, since the thread link does not open for them."
+    "TestingAssemblyVersion": "2.9.9.0",
+    "DownloadLinkTesting": "https://github.com/Kyuuso/EurekaSuite-releases/releases/download/v2.9.9-preview/EurekaSuite-v2.9.9-preview.zip",
+    "DownloadCount": 355,
+    "TestingChangelog": "2.9.9: Report a problem: the .log file now starts with a Now section (zone, position, job, and WigglyQuest's quest and step) and also keeps WigglyQuest's lines and the warnings of other plugins. A line that repeats within a minute is counted instead of written again."
   },
   {
     "Author": "Kyuuso",
