@@ -107,11 +107,11 @@
     ],
     "DownloadLinkInstall": "https://github.com/Kyuuso/dalamud-plugins/releases/download/AnimaHelper-v0.1.0/AnimaHelper-v0.1.0.zip",
     "DownloadLinkUpdate": "https://github.com/Kyuuso/dalamud-plugins/releases/download/AnimaHelper-v0.1.0/AnimaHelper-v0.1.0.zip",
-    "TestingAssemblyVersion": "0.5.15.0",
+    "TestingAssemblyVersion": "0.6.0.0",
     "TestingDalamudApiLevel": 15,
-    "DownloadLinkTesting": "https://github.com/Kyuuso/dalamud-plugins/releases/download/AnimaHelper-v0.5.15-preview/AnimaHelper-v0.5.15-preview.zip",
+    "DownloadLinkTesting": "https://github.com/Kyuuso/dalamud-plugins/releases/download/AnimaHelper-v0.6.0-preview/AnimaHelper-v0.6.0-preview.zip",
     "IconUrl": "https://raw.githubusercontent.com/Kyuuso/dalamud-plugins/main/plugins/AnimaHelper/images/icon.png",
-    "TestingChangelog": "0.5.15: Report a problem: the .log file now starts with a Now section (zone, position, job, and WigglyQuest's quest and step) and also keeps WigglyQuest's lines and the warnings of other plugins. A line that repeats within a minute is counted instead of written again.",
+    "TestingChangelog": "0.6.0, changes since 0.5.15:\n- New tabs. Main has Start, the jobs, what the next stage needs and any missing plugin. Manual has Next step (runs one step and stops), Poetics (farms the Poetics duty to the cap, nothing else) and Stages (every stage with its items, duties and parts by hand). Status and Settings stay.\n- Settings > Plugins lists every plugin this one works with, whether it is loaded, and a button that copies its repository link.\n- Settings > Combat plugin (Auto, Rotation Solver, BossMod, Wrath Combo) is set in AutoDuty for each run. During DAD or AutoDuty runs started here, the picked plugin is turned back on after 3 s in combat when it went off; Wrath goes through its lease, BossMod gets a preset that has the job's rotation.\n- Settings > Dungeon coffers: the runner's own settings (default), boss coffers only, every coffer, or none.\n- Gear repair between duty runs once a piece is at or below 30 % (Settings > Gear repair): Dark Matter first, then Alistair in Limsa Lominsa Lower Decks for what is left.\n- Duty cutscenes are skipped during runs (Escape only while a cutscene plays).\n- Trips to an NPC wait up to 3 minutes to leave a duty before teleporting. The teleport tries used to run out while AutoDuty was still inside.\n- When the game refuses the dismount next to an NPC (roof, slope, water), the plugin tries other ground nearby for up to 60 s. It used to give up after 5 dismounts.\n- Duty unlocks: when WigglyQuest hovers on the mount at an NPC for 8 s, the plugin lands and starts the quest again.\n- A draw error in the mini window is written to the log instead of replacing the window.\nNot tested in game yet: all of the above.",
     "DownloadCount": 146
   },
   {
